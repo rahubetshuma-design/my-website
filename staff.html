@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="Stylesheet/styles.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+  <title>Staff - KK's Chill & Chow</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, main, footer {
+      padding: 1rem 2rem;
+    }
+
+    .staff-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    figure {
+      margin: 0;
+      border: 1px solid #ddd;
+      padding: 1rem;
+    }
+
+    figure img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    figcaption {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 900px) {
+      .staff-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KK's Chill & Chow</h1>
+    <img src="images/logo.png" alt="KK's Chill & Chow logo" width="200" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <aside>
+      <h2>Meet Our Team</h2>
+      <p>Our staff is the heart of KK's Chill & Chow. From preparing fresh food to welcoming guests at the counter, every team member helps create a fun and flavorful experience for every customer.</p>
+    </aside>
+
+    <div class="staff-grid">
+      <figure>
+        <img src="images/chef.png" alt="Chef" />
+        <figcaption><strong>Tshidiso</strong> - Head Chef, preparing fresh kotas, dagwoods and sandwiches.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/staff.png" alt="staff" />
+        <figcaption><strong>Lesedi</strong> - Front Counter Specialist, taking orders and serving customers with a smile.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/cashier.png" alt="cashier" />
+        <figcaption><strong>Bontle</strong> - Kitchen Assistant, arranging takeaways and fries.</figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <footer>
+    <p><a href="tel:+27793560875">&#9742; +27 79 356 0875</a></p>
+    <p><a href="mailto:tshidisopk89@gmail.com">&#9993; tshidisopk89@gmail.com</a></p>
+    <p>&#169; 2026 KK's Chill & Chow. All rights reserved.</p>
+  </footer>
+</body>
+</html>
